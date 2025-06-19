@@ -2,6 +2,7 @@
 
 import { patch } from "@web/core/utils/patch";
 import { PreparationDisplayScreen } from "@pos_preparation_display/screens/preparation_display_screen";
+import { PreparationLine } from "@pos_preparation_display/screens/preparation_line";
 
 patch(PreparationLine.prototype, {
     /**
