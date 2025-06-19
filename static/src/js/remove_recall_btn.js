@@ -8,7 +8,11 @@ patch(PreparationDisplayHeader.prototype, {
         super.setup();
 
         if (Array.isArray(this.headerButtons)) {
+            console.log("Before filtering:", this.headerButtons.map(b => b.label));
             this.headerButtons = this.headerButtons.filter(button => button.label !== "Recall");
+            console.log("After filtering:", this.headerButtons.map(b => b.label));
+        } else {
+            console.warn("❌ headerButtons not found or not an array");
         }
     }
 });
