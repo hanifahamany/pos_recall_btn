@@ -1,3 +1,3 @@
-button.btn.btn-light.btn-lg:has(span:contains("Recall")) {
+/* button.btn.btn-light.btn-lg:has(span:contains("Recall")) {
     display: none !important;
-}
+} */
