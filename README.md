@@ -1,2 +1,2 @@
 # pos_recall_btn
-Customization of Point of Sales's Recall Button on Kedai Babeh's Odoo 18 Server
+Customizing the Recall Button in the Point of Sale Module on Kedai Babeh's Odoo 18 Server
